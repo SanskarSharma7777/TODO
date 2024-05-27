@@ -45,7 +45,7 @@ export default function App() {
 
   return (
     <div className="bg-gradient-to-r from-blue-400 to-purple-600 min-h-screen flex flex-col items-center py-10 px-4">
-      <h1 className="text-5xl text-white font-bold mb-10 animate-bounce">My ToDo List</h1>
+      <h1 className="text-5xl text-white font-bold mb-10 text-center">My ToDo List</h1>
       <AddTask addTask={addTask} />
       <div className="my-6 flex justify-center space-x-4">
         <MyButton text="All" color="bg-blue-500" filter={() => filterList()} />
